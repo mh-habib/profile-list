@@ -22,8 +22,8 @@ const Profile = (props) => {
                 <p> <FontAwesomeIcon icon={faDollarSign} /> Salary: {salary}</p>
             </div>
             <div class="card-footer">
-                <button type="button" class="btn btn-primary btn-sm btn-block mb-2" onClick={() => props.handelSelectBtn(props.info)}>Select</button>
                 <button type="button" class="btn btn-secondary btn-sm btn-block" onClick={() => showPhone(phone)}>Show Phone Number</button>
+                <button type="button" class="btn btn-primary btn-sm btn-block mb-2" onClick={() => props.handelSelectBtn(props.info)}>Select</button>
             </div>
         </div>
 
