@@ -13,7 +13,7 @@ const Profile = (props) => {
     }
     return (
         <div class="card profile mb-3 ml-3 mr-2 shadow">
-            <img class="card-img-top card-img" src={img} alt="Card image"></img>
+            <img class="card-img-top card-img p-3 rounded-circle" src={img} alt="profile"></img>
             <div class="card-body">
                 <h5 class="card-title">{full_name}</h5>
                 <p> <FontAwesomeIcon icon={faUserTie} /> Designation: {job_title}</p>

@@ -26,7 +26,7 @@ function App() {
         }
       </div>
 
-      <div class="card bg-light mt-5 w-20">
+      <div class="card bg-primary mt-5 w-20">
         <div class="card-header">Total Profile: {profiles.length}</div>
         <div class="card-body">
           <Cart allProfiles={cart}></Cart>
