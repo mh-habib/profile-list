@@ -17,15 +17,22 @@ function App() {
   useEffect(() => {
     setProfiles(personalData);
     // console.log(personalData);
-  },[])
+  }, [])
   return (
     <div className="main-div">
+      <div className="w-80">
+        {
+          profiles.map(profile => <Profile info={profile} handelSelectBtn={handelSelectBtn} key={profile.id} ></Profile>)
+        }
+      </div>
 
-      <h3 style={{textAlign: 'center'}}>Total Profile: {profiles.length}</h3>
-      <Cart allProfiles={cart}></Cart>
-      {
-        profiles.map(profile => <Profile info={profile} handelSelectBtn={handelSelectBtn} key={profile.id} ></Profile>)
-      }
+      <div class="card bg-light mt-5 w-20">
+        <div class="card-header">Total Profile: {profiles.length}</div>
+        <div class="card-body">
+          <Cart allProfiles={cart}></Cart>
+        </div>
+      </div>
+
     </div>
   );
 }

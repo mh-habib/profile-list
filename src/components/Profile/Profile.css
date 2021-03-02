@@ -1,35 +1,8 @@
-body{
-    color: rgb(110, 107, 107);
-}
 .profile{
-    
-    border: 1px solid blue;
-    width: 250px;
-    min-height: 450px;
-    margin: 15px 10px 15px 10px;
-    padding: 10px;
-    border-radius:6px;
+    width: 300px;
+    height: 570px;
     float: left;
 }
-.profile h3{
-    text-align: center;
-    color: blue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.profile img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border: 1px solid gray;
-    border-radius:50%;
-    width: 100px;
-    height: 100px;
-}
-.btn-select{
-    display: block;
-    margin: auto;
-    border: 1px solid blue;
-    background-color: lightblue;
-    padding:6px 20px;
-    border-radius: 3px;
+.card-img{
+    height: 220px;
 }
